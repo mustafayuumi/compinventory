@@ -26,5 +26,11 @@ dependencies {
     //exposed
     implementation(libs.exposed.core)
     implementation(libs.exposed.jdbc)
+    implementation("org.jetbrains.exposed:exposed-dao:1.5.0")
     implementation(libs.h2)
+    //mysql exposed
+    //implementation("mysql:mysql-connector-j:8.4.0")
+
+    //log
+    implementation("ch.qos.logback:logback-classic:1.5.20")
 }
